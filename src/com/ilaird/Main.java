@@ -12,8 +12,8 @@ public class Main {
                 new Rotor3(),
                 new ReflectorB());
 
-        String code = "ADS";
-        String message = "R Z F O G  F Y H P L";
+        String code = "ABC";
+        String message = "ROMUL LBIBB";
 
         machine.SetRotorCode(code);
         String cipher = machine.Cipher(message);
